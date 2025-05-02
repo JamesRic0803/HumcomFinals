@@ -293,7 +293,7 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('hary.jpg');
+    background-image: url('/Assets/');
 }
 .card[for="c2"] {
     background-image: url('spa.jpg');
