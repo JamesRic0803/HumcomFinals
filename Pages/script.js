@@ -4,11 +4,9 @@ const prevButton = document.getElementById('prevButton');
 const nextButton = document.getElementById('nextButton');
 
 const videos = [
-    'Flow - Official Trailer.mp4',
-    'moana.mp4',
-    'httd.mp4',
-    'video4.mp4',
-    'video5.mp4'
+
+    '../Assets/moana.mp4',
+    '../Assets/httd.mp4',
 ];
 
 let currentVideoIndex = 0;
