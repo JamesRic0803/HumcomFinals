@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FilmBox</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <style>
+    @keyframes appear {
+      from {
+        opacity: 0;
+        scale: 0.5;
+      }
+      to {
+        opacity: 1;
+        scale: 1;
+      }
+    }
+
+    .movie-list {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+    .movie-1 {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+  </style>
+  <body>
+    <header>
+
+      <nav>
+        <div class="logo">
+          <img src="jim.png" alt="logo">
+      </div>
+     
+      
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="123.html">News</a></li>
+          <li><a href="vid.html">Trailer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    <section class="landing">
+      <div class="movie-banner">
+        <h1>SPIDER-MAN</h1>
+        <p>IMDB Rating: ⭐4.6</p>
+        <p>
+          Peter’s school trip to Europe turns into a mission with Mysterio to
+          fight mysterious creatures, but a shocking truth changes everything.
+        </p>
+        <button>Watch Now</button>
+      </div>
+      <div class="news-image">
+        <img src="sssssss.png" alt="Latest Movie News" />
+      </div>
+    </div>
+    
+    </section>
+    
+   
+    <section class="movies">
+      <h1>Recommended Movies</h1>
+      <div class="movie-list">
+        <div class="movie-item">
+          <a href="https://www.marvel.com/movies/black-panther-wakanda-forever">
+            <img src="blacl.jpg" alt="Black Panther: Wakanda Forever" />
+          </a>
+          <p>Black Panther: Wakanda Forever</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.avatar.com/movies/avatar-the-way-of-water">
+            <img src="ava.avif" alt="Avatar: The Way of Water" />
+          </a>
+          <p>Avatar: The Way of Water</p>
+        </div>
+        <div class="movie-item">
+          <a
+            href="https://www.marvel.com/movies/doctor-strange-in-the-multiverse-of-madness"
+          >
+            <img src="dr.jpeg" alt="Doctor Strange: Multiverse of Madness" />
+          </a>
+          <p>Doctor Strange: Multiverse of Madness</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.marvel.com/movies/thor-love-and-thunder">
+            <img src="3.jpg" alt="Thor: Love and Thunder" />
+          </a>
+          <p>Thor: Love and Thunder</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.marvel.com/movies/avengers-infinity-war">
+            <img src="5.jpg" alt="Avengers: Infinity War" />
+          </a>
+          <p>Avengers: Infinity War</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.marvel.com/movies/spider-man-no-way-home">
+            <img src="spi.jpg" alt="Spider-Man: No Way Home" />
+          </a>
+          <p>Spider-Man: No Way Home</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="more">
+      <div class="movie-list">
+        <div class="movie-item">
+          <a href="https://www.imdb.com/title/tt1790809/">
+            <img
+              src="pir.jpg"
+              alt="Pirates of the Caribbean: Dead Men Tell No Tales"
+            />
+          </a>
+          <p>Pirates of the Caribbean: Dead Men Tell No Tales</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://thegreenlanterncorps.com/web/">
+            <img src="gren.jpg" alt="Green Lantern" />
+          </a>
+          <p>Green Lantern</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.sonypictures.com/movies/venomlettherebecarnage">
+            <img src="ven.jpg" alt=" Let There Be Carnage" />
+          </a>
+          <p>Let There Be Carnage</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.warnerbros.com/movies/mad-max-fury-road">
+            <img src="mad.jpg" alt=" MAD MAX: FURY ROAD " />
+          </a>
+          <p>MAD MAX: FURY ROAD</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.imdb.com/title/tt1745960/">
+            <img src="top.jpg" alt="Top Gun: Maverick" />
+          </a>
+          <p>Top Gun: Maverick</p>
+        </div>
+        <div class="movie-item">
+          <a href="https://www.imdb.com/title/tt0816692/">
+            <img src="inter.jpg" alt="Interstellar" />
+          </a>
+          <p>Interstellar</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Top Movies</h2>
+      <div class="wrapper">
+        <div class="movie-1">
+            <input type="radio" name="slide" id="c1" checked />
+            <label for="c1" class="card">
+                <div class="row">
+                    <a href="harry.html" class="icon">1</a>
+                    <div class="description">
+                        <h4>Harry Potter</h4>
+                        <p>Harry Potter is about a young wizard fighting a dark lord.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" />
+            <label for="c2" class="card">
+                <div class="row">
+                    <a href="harry.html" class="icon">2</a>
+                    <div class="description">
+                        <h4>Pirates of the Caribbean</h4>
+                        <p>Pirates of the Caribbean is about a witty pirate on wild adventures.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" />
+            <label for="c3" class="card">
+                <div class="row">
+                    <a href="harry.html" class="icon">3</a>
+                    <div class="description">
+                        <h4>BATMAN</h4>
+                        <p>Batman is about a vigilante fighting crime in Gotham.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" />
+            <label for="c4" class="card">
+                <div class="row">
+                    <a href="harry.html" class="icon">4</a>
+                    <div class="description">
+                        <h4>300</h4>
+                        <p>300 is about Spartan warriors making a heroic last stand.</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    </section>
+    <section class="image-container">
+      <div class="image-box">
+          <img src="jaki.jpg" alt="witch">
+      </div>
+      <div class="image-box">
+          <img src="resi.jpg" alt="witch2">
+      </div>
+      <div class="image-box">
+          <img src="rock.jpg" alt="witch3">
+      </div>
+      <div class="image-box">
+        <img src="tom.jpg" alt="witch">
+    </div>
+    <div class="image-box">
+        <img src="jims.jpg" alt="witch2">
+    </div>
+    <div class="image-box">
+        <img src="imig.jpg" alt="witch3">
+    </div>
+  </section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+  <footer>
+  <div class="footer">
+  <div class="row">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="#">Contact us</a></li>
+  <li><a href="#">Our Services</a></li>
+  <li><a href="#">Privacy Policy</a></li>
+  <li><a href="#">Terms & Conditions</a></li>
+  <li><a href="#">Career</a></li>
+  </ul>
+  </div>
+  
+  <div class="row">
+  INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+  </div>
+  </div>
+  </footer>
+  
+  </body>
+</html>

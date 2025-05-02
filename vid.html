@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="vid.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="jim.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="123.html">News</a></li>
+          <li><a href="vid.html">Trailer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="video-container">
+        <button class="arrow left" id="prevButton">&#10094;</button>
+        <video id="videoPlayer" width="1200" height="700" controls>
+          <source
+            id="videoSource"
+            src="Flow - Official Trailer.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <button class="arrow right" id="nextButton">&#10095;</button>
+      </div>
+    </div>
+
+    <section id="featured">
+      <h2>Recommendation</h2>
+
+      <div class="carousel-container">
+        <button id="prev" class="carousel-arrow">&#10094;</button>
+
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <a href="Rust.Html" class="game-card">
+              <img src="vidspiii.jpg" alt="Rust" />
+            </a>
+            <a href="CS2.html" class="game-card">
+              <img src="vidgeoo.jpg" alt="CS2" />
+            </a>
+            <a href="Osu.html" class="game-card">
+              <img src="vidaquaaa.jpg" alt="Osu" />
+            </a>
+            <a href="Minecraft.html" class="game-card">
+              <img src="vidsink.jpg" alt="Minecraft" />
+            </a>
+            <a href="Rimworld.html" class="game-card">
+              <img src="vidnun.jpg" alt="Rimworld" />
+            </a>
+            <a href="Eldenring.html" class="game-card">
+              <img src="vidgeo.jpg" alt="Eldenring" />
+            </a>
+          </div>
+        </div>
+
+        <button id="next" class="carousel-arrow">&#10095;</button>
+      </div>
+
+      <div class="pagination-dots"></div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          INFERNO © 2021 Inferno - All rights reserved || Designed By: James
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
