@@ -306,8 +306,6 @@ input:checked + label .description {
 }
 
  
-
-  
   .social-media:before {
     content: " ";
     display: block;
