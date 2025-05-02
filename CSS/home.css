@@ -61,7 +61,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    background: url('spiderman.png') no-repeat center center/cover;
+    background: url('../Assets/spiderman.png') no-repeat center center/cover;
     text-align: left;
     padding-left: 10%;
 }
@@ -293,16 +293,16 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('hary.jpg');
+    background-image: url('../Assets/hary.jpg');
 }
 .card[for="c2"] {
-    background-image: url('spa.jpg');
+    background-image: url('../Assets/rock.jpg');
 }
 .card[for="c3"] {
-    background-image: url('bat.jpg');
+    background-image: url('../Assets/bat.jpg');
 }
 .card[for="c4"] {
-    background-image: url('300.jpg');
+    background-image: url('../Assets/300.jpg');
 }
 
  
