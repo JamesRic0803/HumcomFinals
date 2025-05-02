@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(red.png) no-repeat;
+    background: url(../Assets/red.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
